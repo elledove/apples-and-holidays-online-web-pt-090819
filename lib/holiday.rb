@@ -76,6 +76,7 @@ holiday_hash.each do |season , holiday|
     if supplies.include?("BBQ")
       bbq_days << day
    end
+  end
  end
  bbq_days
 end
